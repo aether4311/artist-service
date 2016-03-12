@@ -1,0 +1,8 @@
+# binaries
+artist-service
+!_build/dockercompose/artist-service
+!_build/dockerfile/artist-service
+
+# other
+.DS_Store
+_build/dockerfile/artist-service/swagger_spec

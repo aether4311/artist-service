@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /artist-service/artist-service /artist-service/config.json /artist-service
