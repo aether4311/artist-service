@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/aether4311/artist-service/mocks"
 	"github.com/gorilla/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/mikelong/artist-service/mocks"
 )
 
 type mockType struct {

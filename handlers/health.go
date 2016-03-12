@@ -3,8 +3,8 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-	
-	"github.com/mikelong/artist-service/logging"
+
+	"github.com/aether4311/artist-service/logging"
 )
 
 // This is not particularlly a real world example it mearly shows how a builder or a factory could be injected

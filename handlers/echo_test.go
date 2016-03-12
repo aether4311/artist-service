@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/aether4311/artist-service/mocks"
 	"github.com/facebookgo/inject"
 	"github.com/gorilla/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/mikelong/artist-service/mocks"
 )
 
 var echoStatsDMock *mocks.MockStatsD

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/aether4311/artist-service/logging"
 	"github.com/gorilla/pat"
-	"github.com/mikelong/artist-service/logging"
 )
 
 type RouterDependenciesContainer struct {

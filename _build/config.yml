@@ -1,6 +1,6 @@
 ---
 go:
-  namespace: 'github.com/mikelong'
+  namespace: 'github.com/aether4311'
   application_name: 'artist-service'
 docker_registry:
   url: <%= ENV['DOCKER_REGISTRY_URL'] %>
@@ -15,7 +15,7 @@ docker:
     image: 'golang:latest'
     env:
       - 'CGO_ENABLED=0' # used for alpine linux static linking
-    working_directory: '/go/src/github.com/mikelong/artist-service'
+    working_directory: '/go/src/github.com/aether4311/artist-service'
 run:
   consul_loader:
     enabled: true
@@ -32,7 +32,7 @@ cucumber:
 after_build:
   copy_assets:
     -
-      from: <%= "#{ENV['GOPATH']}/src/github.com/mikelong/artist-service/artist-service" %>
+      from: <%= "#{ENV['GOPATH']}/src/github.com/aether4311/artist-service/artist-service" %>
       to: './dockerfile/artist-service'
     -
       from: './swagger_spec/swagger.yml'

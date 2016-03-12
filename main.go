@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/aether4311/artist-service/global"
+	"github.com/aether4311/artist-service/handlers"
 	"net/http"
 	"os"
-	"github.com/mikelong/artist-service/global"
-	"github.com/mikelong/artist-service/handlers"
 
+	"github.com/alexcesaro/statsd"
 	"github.com/facebookgo/inject"
-	 "github.com/alexcesaro/statsd"
 )
 
 func main() {

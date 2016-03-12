@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/aether4311/artist-service/logging"
 	"github.com/gorilla/context"
-	"github.com/mikelong/artist-service/logging"
 )
 
 type EchoDependenciesContainer struct {

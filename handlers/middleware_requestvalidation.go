@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/aether4311/artist-service/logging"
 	"github.com/asaskevich/govalidator"
 	"github.com/gorilla/context"
-	"github.com/mikelong/artist-service/logging"
 )
 
 func requestValidationHandler(mainHandlerRef string, t reflect.Type, statsD logging.StatsD, next http.Handler) http.Handler {
